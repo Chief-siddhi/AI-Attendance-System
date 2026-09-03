@@ -34,7 +34,7 @@ def style_base_layout():
 
     st.markdown("""
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
         
         /* hide top bar of streamlit */
@@ -47,7 +47,7 @@ def style_base_layout():
         }
 
         h1{
-            font-family: 'Climate Crisis', sans-serif !important;
+            font-family: 'Alfa Slab One', serif !important;
             font-size: 3.5rem !important;
             font-weight: 400 !important;
             line-height: 0.9 !important;
@@ -55,7 +55,7 @@ def style_base_layout():
         }
 
         h2{
-            font-family: 'Climate Crisis', sans-serif !important;
+            font-family: 'Alfa Slab One', serif !important;
             font-size: 3.5rem !important;
             font-weight: 400 !important;
             line-height: 1.1 !important;
