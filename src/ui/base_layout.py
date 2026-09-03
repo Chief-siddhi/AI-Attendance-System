@@ -83,9 +83,9 @@ def style_base_layout():
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
         
         /* hide top bar of streamlit */
-        # header[data-testid="stHeader"] {
-        #     display: none !important;
-        # }
+        header[data-testid="stHeader"] {
+            display: none !important;
+        }
 
         .block-container {
             padding-top: 0.5rem !important;
