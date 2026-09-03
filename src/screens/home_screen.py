@@ -8,11 +8,11 @@ def home_screen():
     style_background_home()
     style_base_layout()
 
-    col1, col2 = st.columns(2, gap="large")
+    col1, col2 = st.columns(2, gap="medium")
 
     with col1:
-        st.header("I'm Student")
-        st.image("https://i.ibb.co/844D9Lrt/mascot-student.png", width=120)
+        st.markdown("<h2 class='card-title'>I'm Student</h2>", unsafe_allow_html=True)
+        st.image("https://i.ibb.co/844D9Lrt/mascot-student.png", width=75)
 
         if st.button(
             "Student Portal",
@@ -23,8 +23,8 @@ def home_screen():
             st.rerun()
 
     with col2:
-        st.header("I'm Teacher")
-        st.image("https://i.ibb.co/CsmQQV6X/mascot-prof.png", width=145)
+        st.markdown("<h2 class='card-title'>I'm Teacher</h2>", unsafe_allow_html=True)
+        st.image("https://i.ibb.co/CsmQQV6X/mascot-prof.png", width=90)
 
         if st.button(
             "Teacher Portal",
